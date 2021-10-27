@@ -1,1 +1,16 @@
+/*You can only use libs that java provides by default, no outside libs or frameworks are allowed*/
+/*Move all zeroes to the end of array while maintaining the relative order of the non-zero elements
+  You must do it without allocating the space for additional array*/
 
+public class Main {
+
+    public static void main(String[] args) {
+        int[] mas = {0,1,0,3,12};
+        moveZeroes(mas);
+        System.out.println(Arrays.toString(mas));
+    }
+    
+    private static String moveZeroes(int[] array) {
+    //Your code here
+ }
+}
