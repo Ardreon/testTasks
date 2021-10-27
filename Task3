@@ -1,0 +1,28 @@
+/*You can only use libs that java provides by default, no outside libs or frameworks are allowed*/
+/*Given an array of integers(mas1, mas2, mas3) and an integer(sum1, sum2, sum3) - mas1 correspondes to sum1, mas2 correspondes to sum2
+  and so on; return indices of the two elements of array such that they add up to sum. Assume that each input would have only one
+  solution, and you won't use the same element twice.
+  The order of indices in answer doesn't matter.*/
+
+public class Main {
+
+    public static void main(String[] args) {
+        int[] mas1 = {2,7,11,15};
+        int[] mas2 = {3,2,4};
+        int[] mas3 = {3,3};
+        int sum1 = 9;
+        int sum2 = 6;
+        int sum3 = 6;
+        int[] result1 = twoSum(mas1, sum1);
+        int[] result2 = twoSum(mas2, sum2);
+        int[] result3 = twoSum(mas3, sum3);
+        //in case 1, sum1=9, because 2+7=9, the answer are their indices in array - [0] and [1]
+        System.out.println(Arrays.toString(result1) + " -> " + "[0,1] or [1,0]");
+        System.out.println(Arrays.toString(result2) + " -> " + "[1,2] or [2,1]");
+        System.out.println(Arrays.toString(result3) + " -> " + "[0,1] or [1,0]");
+    }
+    
+    private static int[] twoSum(int[] nums, int sum) {
+    //Your code here
+ }
+}
